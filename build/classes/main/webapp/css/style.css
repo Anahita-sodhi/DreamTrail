@@ -1,0 +1,124 @@
+body {
+        overflow-x: hidden;
+    }
+    h2{
+    font-weight:700;
+    }
+    /*  About Section */
+    #about {
+        background-color: white;
+        border-radius: 10px;
+        padding: 40px;
+        margin: 50px auto;
+        max-width: 80%; 
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); 
+    }
+ 
+    
+ 
+#about-header{
+	text-align:center;
+}
+#about-img{
+	height:43vh;
+	box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+	
+}
+     /* form */
+    #form{
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    }
+ /*  nav */
+.nav-item {
+  margin-bottom: 10px; 
+}
+@media (min-width: 768px) {
+  .nav-item {
+    margin-bottom: 0; 
+  }
+  #hero{
+  margin-left:50px;
+  margin-right:auto;
+  }
+}
+.su {
+  color: #448aff ;  
+  font-weight: bold;
+}
+.logout {
+  color: #dc3545; 
+  font-weight: bold;
+}
+#chead{
+	background-color:#7ECFCF;
+	color:white;
+}
+#hero{
+	margin-left:-290px;
+	
+}
+/* why choose */
+#why-choose{
+    background-color: #fff;
+}
+#why-choose .card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  #why-choose .card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+  }
+
+  #why-choose .row .col-md-3:nth-child(2) .card {
+    background-color: #e0f7fa;
+  }
+.card {
+  border-radius: 12px;
+  transition: all 0.3s ease;
+  border: 2px solid #c6f9f9; 
+  background: linear-gradient(to bottom, #c6f9f9, #ffffff); 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+.card:hover {
+  transform: translateY(-5px); /* Slight lift effect */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); 
+}
+
+.card img {
+  transition: transform 0.3s ease;
+}
+
+.card:hover img {
+  transform: scale(1.1); 
+}
+/* FOOTER */
+.heart {
+    color: #e74c3c;
+    animation: pulse 1.5s infinite;
+}
+
+.name {
+    font-weight: bold;
+    color: #2c3e50;
+}
+
+@keyframes pulse {
+    0%, 100% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.2);
+    }
+}
+
+.row.text-center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+p {
+    margin: 5px 0;
+}
